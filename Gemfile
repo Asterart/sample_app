@@ -10,8 +10,17 @@ end
 gem 'rails', ' 5.0.1'
 # Boostrap
 gem 'bootstrap-sass', '3.3.6'
+
+gem 'will_paginate', '3.1.1'
+
+gem 'bootstrap-will_paginate', '0.0.10'
+
+
 #maps for charging points
-gem 'gmaps4rails'
+#gem 'gmaps4rails'
+
+#temporary users
+gem 'faker', '1.6.6'
 #bcrypt for passwords
 gem 'bcrypt', '3.1.11'
 # Use Puma as the app server

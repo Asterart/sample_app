@@ -206,3 +206,21 @@ input {
 	margin-top: 45px;
 	@include box-sizing;
 }
+
+/* user index */
+
+.users {
+	margin: 0;
+	overflow: none;
+	padding: 10px 0;
+	#border: 1px solid $light-gray;
+	ul {
+		list-style: none;
+	}
+	
+}
+
+.users_display{
+	display: inline;
+	text-align: left;
+}

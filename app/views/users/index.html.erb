@@ -1,0 +1,31 @@
+<% provide(:title, "All users") %>
+<h1>All users</h1>
+
+<div class = "row users">
+	
+	<ul>
+		<li class = "col-md-12">	
+			<center><%= will_paginate %></center>
+		</li>
+		
+		
+		<li class = "col-md-12">
+			<%= render @users %>
+		</li>	
+		
+		
+		<li class = "col-md-12">
+			<center><%= will_paginate %></center>
+		</li>
+	</ul> 
+</div>
+
+
+
+
+
+<% if false %>
+<ul class = "users">
+	<%= render @users %>
+</ul>
+<% end %>
